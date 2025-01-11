@@ -1,0 +1,36 @@
+name: todo_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  sqflite: ^2.3.3+1
+  intl: ^0.17.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0  # Add this line to include flutter_lints
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images.png
