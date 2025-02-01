@@ -88,7 +88,10 @@ class Homescreen extends StatelessWidget {
                         (context) {
                           return Padding(
                             padding: const EdgeInsetsDirectional.only(
-                                start: 10, end: 10),
+                              start: 10,
+                              end: 10,
+                              bottom: 10,
+                            ),
                             child: Form(
                               key: formKey,
                               child: Column(
